@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#459672">
+
+    <!-- 우측 상단 나가기 버튼 -->
+    <Button
+        android:id="@+id/exitButton2X4y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#eda65c"
+        android:text="나가기" />
+
+    <!-- A타입 버튼 -->
+    <Button
+        android:id="@+id/btn_a_type_7x3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#eda65c"
+        android:text="A타입" />
+
+    <!-- B타입 버튼 -->
+    <Button
+        android:id="@+id/buttonBTypeQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_a_type_7x3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#eda65c"
+        android:text="B타입" />
+</RelativeLayout>

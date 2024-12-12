@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a70e2"
+    android:orientation="vertical">
+
+    <!-- Section 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="#CCCCCC"
+        android:orientation="vertical">
+        <!-- 결과값 텍스트-->
+        <TextView
+            android:id="@+id/r_k_g_kq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="결과 값"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 작동완료 텍스트(숨김)-->
+    <TextView
+        android:id="@+id/tteexxTt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#F15C22"
+        android:visibility="gone"
+        android:text="작동완료"/>
+
+
+    <!-- Section 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_st_rt12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e0f3fb"
+            android:textColor="@color/black"
+            android:text="시작" />
+
+        <Button
+            android:id="@+id/btn_ini_o9p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e0f3fb"
+            android:textColor="@color/black"
+            android:text="초기화" />
+    </LinearLayout>
+</LinearLayout>
