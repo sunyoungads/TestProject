@@ -36,24 +36,31 @@
     <!-- Section 2 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp"
+        android:padding="0dp">
 
         <Button
             android:id="@+id/bt_st_rt12"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
             android:backgroundTint="#e0f3fb"
             android:textColor="@color/black"
             android:text="시작" />
 
         <Button
             android:id="@+id/btn_ini_o9p"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
             android:backgroundTint="#e0f3fb"
             android:textColor="@color/black"
             android:text="초기화" />
+
     </LinearLayout>
 </LinearLayout>

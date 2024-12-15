@@ -52,8 +52,8 @@ class ReaderActivity : AppCompatActivity() {
             // Companion Object에 데이터 저장
             MainActivity.personData = "ID: ${it.id}, Name: ${it.name}, Email: ${it.email}"
 
-            // 결과 상태 설정
-            setResult(Activity.RESULT_OK)
+             // 결과 상태 설정
+             setResult(Activity.RESULT_OK)
         } ?: setResult(Activity.RESULT_CANCELED)
 
         // Activity 종료
