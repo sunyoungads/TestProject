@@ -20,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- TODO : 여기에 뭘 추가 해야 할까요?-->
+        <activity android:name=".ReaderActivity"/>
     </application>
 
 </manifest>
